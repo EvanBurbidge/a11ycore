@@ -1,5 +1,5 @@
 {
-  "name": "service1",
+  "name": "@a11ycore/__PACKAGE__",
   "version": "0.0.1",
   "main": "handler.js",
   "license": "MIT",

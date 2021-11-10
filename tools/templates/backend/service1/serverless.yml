@@ -1,4 +1,4 @@
-service: serverless-lerna-yarn-service1
+service: __PACKAGE__
 
 plugins:
   - serverless-bundle
@@ -6,7 +6,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs12.x
-  region: us-east-1
+  region: eu-west-1
   stage: dev
 
 functions:
