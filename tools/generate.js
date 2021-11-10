@@ -20,7 +20,7 @@ generateTemplateFiles([
     option: "create backend service",
     defaultCase: "(kebabCase)",
     entry: {
-      folderPath: "./tools/templates/frontend/"
+      folderPath: "./tools/templates/backend/"
     },
     stringReplacers: ["__PACKAGE__"],
     output: {
