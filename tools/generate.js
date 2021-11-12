@@ -9,7 +9,7 @@ generateTemplateFiles([
     },
     stringReplacers: ["__PACKAGE__"],
     output: {
-      path: "./packages/@a11ycore/__PACKAGE__(kebabCase)",
+      path: "./packages/__PACKAGE__(kebabCase)",
       pathAndFileNameDefaultCase: "(kebabCase)"
     },
     onComplete: results => {
@@ -24,7 +24,7 @@ generateTemplateFiles([
     },
     stringReplacers: ["__PACKAGE__"],
     output: {
-      path: "./packages/@a11ycore/__PACKAGE__(kebabCase)",
+      path: "./packages/__PACKAGE__(kebabCase)",
       pathAndFileNameDefaultCase: "(kebabCase)"
     },
     onComplete: results => {
