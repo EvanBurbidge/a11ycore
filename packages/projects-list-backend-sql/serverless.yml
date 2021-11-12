@@ -10,8 +10,8 @@ provider:
   stage: dev
 
 functions:
-  get:
+  post:
     handler: handler.main
     events:
-      - http: GET /
+      - http: POST /
 
