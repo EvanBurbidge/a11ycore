@@ -10,5 +10,8 @@
     "serverless-bundle": "4.3.1",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
+  },
+  "dependencies": {
+    "prisma": "^3.4.2"
   }
 }
