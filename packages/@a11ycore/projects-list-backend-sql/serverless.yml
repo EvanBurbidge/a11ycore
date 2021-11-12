@@ -1,0 +1,17 @@
+service: projects-list-backend-sql
+
+plugins:
+  - serverless-bundle
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+  stage: dev
+
+functions:
+  get:
+    handler: handler.main
+    events:
+      - http: GET /
+
